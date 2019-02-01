@@ -1,0 +1,26 @@
+.active {
+  border-bottom: 2px solid blue;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+.header {
+  overflow: hidden;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  font-family: Verdana;
+  background-color: white;
+}
+.footer {
+  padding: 6px 12px;
+  font-family: Verdana;
+}
+.header > div {
+  display: inline-block;
+  width: 100px;
+  float: left;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  background-color: white;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Tab from './App';
 import './App.css';
 
+
 ReactDOM.render(
-    <App />,
+    <Tab />,
     document.getElementById('root')
 );
